@@ -28,5 +28,6 @@ RUN apk add \
     gcc \
     g++ \
     make \
-    linux-headers \
-    && rm /var/cache/apk/*
+    linux-headers &&\
+    rm /var/cache/apk/* &&\
+    mkdir -p /scripts
