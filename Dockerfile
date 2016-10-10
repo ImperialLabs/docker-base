@@ -31,3 +31,7 @@ RUN apk add \
     linux-headers &&\
     rm /var/cache/apk/* &&\
     mkdir -p /scripts
+
+VOLUME /scripts
+
+WORKDIR /scripts
