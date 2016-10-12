@@ -24,11 +24,7 @@ RUN apk add \
     libxml2-dev \
     libxslt-dev \
     build-base \
-    libgcrypt \
-    gcc \
-    g++ \
-    make \
-    linux-headers &&\
+    libgcrypt &&\
     rm /var/cache/apk/* &&\
     mkdir -p /scripts
 
